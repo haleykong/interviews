@@ -60,9 +60,11 @@ class Handler:
         None.
         """
 
+
 class SlotState(enum.enum):
     EMPTY = 0
     FULL = 1
+
 
 class ErrorCodes(enum.enum):
     ITEM_NOT_PRESENT = 0
@@ -70,6 +72,7 @@ class ErrorCodes(enum.enum):
     RFID_READ = 2
     MACHINE_FAULTED = 3
     SUCCESS = 4
+
 
 class Slots():
     """This is a prototypical line of objects
