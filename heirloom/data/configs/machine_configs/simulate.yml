@@ -1,0 +1,1 @@
+# Config file for base machine configurationinfo:  machine_make: "Yoda"  machine_model: "Best"simulate:  machine_faults: true  rfid_faults: truespecifications:  dimensions:    width: 1200    height: 1000    depth: 800    weight: 1500  electrical:    voltage: 220    current: 10

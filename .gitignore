@@ -1,0 +1,25 @@
+# Don't ignore these
+!/.gitignore
+!/.README.txt
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+
+# Image files
+
+
+# Swap file and backup file from editors
+*~
+~*
+*.swp
+*.swo
+./
+**/#*#
+
+# Pytest stuff
+.pytest_cache
+
+# VS code
+.vscode
+
