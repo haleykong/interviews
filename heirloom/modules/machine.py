@@ -102,6 +102,7 @@ class Machine:
         self.transactions = deque(maxlen=MAX_NUM_RETRIES + 1)
         self.configs = None  # TODO
 
+
     def _check_operation(self, operation, vstack):
         """Check to see if machine is able to execute its operation
 

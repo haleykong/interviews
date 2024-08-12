@@ -65,11 +65,14 @@ class SimpleFormatter(logging.Formatter):
         return formatter.format(record)
 
 
-CH = logging.StreamHandler()
-CH.setFormatter(CustomFormatter())
+SH = logging.StreamHandler()
+FH = logging.FileHandler('output.log')
 
-CH_SIMPLE = logging.StreamHandler()
-CH_SIMPLE.setFormatter(SimpleFormatter())
+SH.setFormatter(CustomFormatter())
+FH.setFormatter(SimpleFormatter())
+
+SH_SIMPLE = logging.StreamHandler()
+SH_SIMPLE.setFormatter(SimpleFormatter())
 
 # -----------------------------------------------------------------------------
 # FUNCTIONS
