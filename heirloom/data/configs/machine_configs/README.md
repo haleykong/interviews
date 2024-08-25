@@ -1,1 +1,0 @@
-simulate.yml - Simulation-only configuration, no faults# TODO: Add real machine configuration, which includes machine faults
