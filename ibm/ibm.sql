@@ -1,4 +1,5 @@
 -- IBM 2023-2024 Backend Developer Assessment
+-- Question 2)
 
 SELECT MAXIMUM_HACKOS, COUNT(*) AS NUMBER_OF_HACKERS
 FROM(
